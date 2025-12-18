@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Demonstartion of the grid</title>
+            <style>
+                 .container {
+                display: grid;
+
+                /* display: inline-grid; */
+
+                border: 2px solid violet;
+                padding: 10px;
+                gap: 10px;
+
+                /* grid-template-columns: 50px 100px 150px; */
+
+                /* grid-template-columns: 1fr 1fr 2fr; */
+
+                /* grid-template-columns: minmax(auto, 50%) 1fr 3cm; */
+
+                grid-template-columns: repeat(4, 100px);
+ 
+                /* grid-template-rows: 50px 100px; */
+
+                /* grid-template-rows: minmax(100px, auto); */
+
+                /* grid-template-rows: repeat(4, 100px); */
+            }
+
+            .box {
+                border-color: aquamarine;
+                border: 2PX solid bisque;
+                font-size: 20px;
+
+                /* center text inside grid items  */
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+            }
+            h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+    <body>
+    </head>
+
+             <h3>Example of the grid concept</h3>
+
+                <div class="container">
+                <div class="box">Java</div>
+                <div class="box">Python</div>
+                <div class="box">Php</div>
+                <div class="box">C</div>
+                <div class="box">C++</div>
+                <div class="box">Jenkins</div>
+                <div class="box">HTML</div>
+                <div class="box">CSS</div>
+                <div class="box">Docker</div>
+                <div class="box">JS</div>
+                <div class="box">K85</div>
+                <div class="box">react JS</div>
+</div>
+
+</body>
+</html>
